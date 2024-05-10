@@ -1,6 +1,8 @@
 name: Flatpak
 
-on: push
+on: 
+  push:
+  workflow_dispatch:
 #  push:
 #    branches: [main]
 #  pull_request:
